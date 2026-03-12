@@ -1,0 +1,59 @@
+.bpmn-icon-task.red{
+  color: #cc0000 !important;
+}
+
+.bpmn-icon-task.blue{
+  color: #0000cc !important;
+}
+
+.icon-custom{
+  border-radius: 50%;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-custom.duyi-task{
+  background-image: url('../assets/task.png');
+}
+
+.djs-context-pad .duyi-task.entry:hover{
+  background: url('../assets/task.png') center no-repeat !important;
+  background-size: cover !important;
+}
+
+.icon-custom-delete{
+  background-image: url('../assets/delete.png');
+}
+.icon-custom-edit{
+  background-image: url('../assets/edit.png');
+}
+
+.djs-context-pad .icon-custom-delete.entry:hover{
+  background: url('../assets/delete.png') center no-repeat !important;
+  background-size: cover !important;
+}
+
+.djs-context-pad .icon-custom-edit.entry:hover{
+  background: url('../assets/edit.png') center no-repeat !important;
+  background-size: cover !important;
+}
+
+.icon-custom-start{
+  background-image: url('../assets/start.png');
+}
+.icon-custom-end{
+  background-image: url('../assets/end.png');
+}
+.icon-custom-business-rule{
+  background-image: url('../assets/business-rule.png');
+}
+.icon-custom-exclusive-gateway{
+  background-image: url('../assets/exclusive-gateway.png');
+}
+.icon-custom-data{
+  background-image: url('../assets/data.png');
+}
+.icon-custom-flow{
+  background-image: url('../assets/flow.png');
+}
