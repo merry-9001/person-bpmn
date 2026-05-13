@@ -1,0 +1,7 @@
+services:
+  person-bpmn:
+    container_name: person-bpmn
+    image: ${APP_IMAGE}
+    ports:
+      - "8080:80"
+    restart: unless-stopped
